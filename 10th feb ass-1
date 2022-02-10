@@ -1,0 +1,26 @@
+sno=int(input('enter student no:')
+sname=int(input('enter student name:')
+sgroup=int(input('enter student group:')
+s1=int(input('maths marks:')
+s2=int(input('physics marks:')
+s3=int(input('ai marks:')
+s4=int(input('english marks:')
+s5=int(input('telugu marks:')
+s6=int(input('soft skills marks:')
+if   s1>=27and  s2>=27and  s3>=27and  s4>=27and  s5>=27and  s6>=27and
+print('pass')
+else:
+   print('fail')
+   
+   
+   output
+   enter student no:23
+   enter student name:chandu
+   enter student group:mpair
+   maths marks:60
+   physocs marks:66
+   ai marks:75
+   english marks:73
+   telugu marks:68
+   soft skills marks:70
+   pass
