@@ -1,0 +1,21 @@
+price = int(input('Enter price of product: '))
+quantity = int(input('Enter quantity: '))
+amount = price * quantity
+
+if amount > 2000:
+    discount = amount*0.20
+else:
+    discount = 0
+
+net_amount = amount - discount
+
+print('Bill amount:',amount)
+print('Discount:',discount)
+print('Your net bill amount is',net_amount)
+
+Output:
+Enter price of product: 550
+Enter quantity: 5
+Bill amount: 2200
+Discount: 440.0
+Your net bill amount is 1760.0
