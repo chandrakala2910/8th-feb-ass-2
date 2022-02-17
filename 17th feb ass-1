@@ -1,0 +1,21 @@
+minimum = int(input(" Enter the Minimum Value : ")) 
+maximum = int(input(" Enter the Maximum Value : "))
+
+even_total = 0
+odd_total = 0
+ 
+for number in range(minimum, maximum + 1):
+    if(number % 2 == 0):
+        even_total = even_total + number
+    else:
+        odd_total = odd_total + number
+ 
+print("The Sum of Even Numbers from 1 to {0} = {1}".format(number, even_total))
+print("The Sum of Odd Numbers from 1 to {0} = {1}".format(number, odd_total))
+
+
+output:
+ Enter the Minimum Value : 10
+ Enter the Maximum Value : 40
+The Sum of Even Numbers from 1 to 40 = 400
+The Sum of Odd Numbers from 1 to 40 = 375
