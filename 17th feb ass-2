@@ -1,0 +1,22 @@
+Number = int(input("Enter the Fibonacci Numbers Range = "))
+
+First = 0
+Second = 1
+Sum = 0
+i = 0
+
+while(i <  Number):
+    print(First, end = '  ')
+    Sum = Sum + First
+    Next = First + Second
+    First = Second
+    Second = Next
+    i = i + 1
+
+print("\nThe Sum of Fibonacci Series Numbers = %d" %Sum)
+
+
+output:
+Enter the Fibonacci Numbers Range = 24
+0  1  1  2  3  5  8  13  21  34  55  89  144  233  377  610  987  1597  2584  4181  6765  10946  17711  28657  
+The Sum of Fibonacci Series Numbers = 75024
