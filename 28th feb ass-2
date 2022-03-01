@@ -1,0 +1,18 @@
+def dupes(a):
+    s = {}
+    non_dupes = []
+    for ele in a:
+        if ele not in s:
+            s[ele] = 1
+        else:
+            s[ele] += 1
+    for x in s:
+        if s[x] == 1:
+            non_dupes.append(x)
+    return non_dupes
+
+l = [1,2,3,4,1,5,4,2,7,8,9]
+cd = dupes(l)
+print("This is dupes: ", cd)
+
+output:[1,7]
